@@ -1,14 +1,48 @@
+<!--
+  创建人：xyh
+  创建时间：2020年9月29日11:44:07
+  页面描述：index
+-->
 <template>
-    <div>
-        <router-view></router-view>
-    </div>
+    <router-view></router-view>
 </template>
 
 <script>
+    // vuex等插件
+
+    // 组件
+
+    // 枚举
+
+    // 方法
+
+    // 接口
+
     export default {
-        name: 'index'
+        // 组件
+        components: {},
+
+        // 数据对象，本页面用到的所有数据
+        data () {
+            return {}
+        },
+
+        // 计算属性
+        computed: {},
+
+        // 监控
+        watch: {},
+
+        // 方法与事件处理
+        methods: {},
+
+        // 组件生命周期钩子，一般常用的是 mounted
+        mounted () {
+        }
     }
 </script>
 
-<style scoped>
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="stylus" scoped>
+
 </style>
